@@ -1,0 +1,66 @@
+.newspaper-layout {
+    display: grid;
+    grid-template-areas:
+      "title title title"
+      "feature feature cover-image"
+      "secondary secondary cover-image"
+      "small-article1 small-article2 small-article3";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    font-family: Georgia, serif;
+  }
+  
+  /* Grid area assignments */
+  .title {
+    grid-area: title;
+    background-color: linen;
+  }
+  
+  .feature-article {
+    grid-area: feature;
+    background-color: linen;
+  }
+  
+  .secondary-article {
+    grid-area: secondary;
+    background-color: linen;
+  }
+  
+  .cover-image {
+    grid-area: cover-image;
+    background-color: linen;
+  }
+  
+  .small-article1 {
+    grid-area: small-article1;
+    background-color: linen;
+  }
+  
+  .small-article2 {
+    grid-area: small-article2;
+    background-color: linen;
+  }
+  
+  .small-article3 {
+    grid-area: small-article3;
+    background-color: linen;
+  }
+  
+  /* General styling */
+  article, header, figure {
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
