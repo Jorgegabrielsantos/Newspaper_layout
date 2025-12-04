@@ -12,7 +12,7 @@ The goal is to practice grid and column layouts, typography, and spacing to recr
 ---
 
 ## 🔗 Live Demo
-👉 [Click here to view the project](https://your-username.github.io/Newspaper_layout/)
+👉 [Click here to view the project](https://Jorgabrielsantos.github.io/Newspaper_layout/)
 
 ---
 
